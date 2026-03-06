@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLB Nghệ Thuật - Âm nhạc</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CÂU LẠC BỘ NGHỆ THUẬT</h1>
+            <p class="sub-title">Trường THPT Nguyễn Du - Nơi đam mê tỏa sáng</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                <li><a href="bo-suu-tap-anh.html">Bộ sưu tập ảnh</a></li>
+                <li><a href="am-nhac.html" class="active">Âm nhạc</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="lien-he.html">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="section">
+                <h2>🎵 Góc âm nhạc</h2>
+                
+                <div class="media-placeholder">
+                    <p class="placeholder-label">[BÀI HÁT CHỦ ĐỀ CLB]</p>
+                    <h3 style="color: var(--primary-blue); margin-bottom: 15px;">"Niềm tin chiến thắng"</h3>
+                    
+                    <!-- KHU VỰC CHÈN ÂM THANH 1 -->
+                    <audio controls>
+                        <source src="audio/bai-hat-chu-de.mp3" type="audio/mpeg">
+                        <source src="audio/bai-hat-chu-de.ogg" type="audio/ogg">
+                        Trình duyệt của bạn không hỗ trợ thẻ audio.
+                    </audio>
+                    <p class="media-note">🎤 Sáng tác: Thành viên CLB | Thể hiện: Tốp ca CLB</p>
+                </div>
+
+                <div class="media-placeholder">
+                    <p class="placeholder-label">[NHẠC NỀN SINH HOẠT]</p>
+                    
+                    <!-- KHU VỰC CHÈN ÂM THANH 2 -->
+                    <audio controls>
+                        <source src="audio/nhac-nen.mp3" type="audio/mpeg">
+                        Trình duyệt của bạn không hỗ trợ thẻ audio.
+                    </audio>
+                    <p class="media-note">🎵 Nhạc nền thường dùng trong các buổi sinh hoạt</p>
+                </div>
+
+                <div class="media-placeholder">
+                    <p class="placeholder-label">[TUYỂN TẬP NHẠC CLUB]</p>
+                    
+                    <!-- KHU VỰC CHÈN ÂM THANH 3 -->
+                    <audio controls>
+                        <source src="audio/tuyen-tap-1.mp3" type="audio/mpeg">
+                        Trình duyệt của bạn không hỗ trợ thẻ audio.
+                    </audio>
+                    <p class="media-note">🎼 Medley các bài hát được yêu thích trong CLB</p>
+                </div>
+
+                <div class="card" style="margin-top: 30px;">
+                    <h3 style="color: var(--primary-blue);">📝 Hướng dẫn chèn nhạc:</h3>
+                    <ol style="margin-left: 20px; margin-top: 10px;">
+                        <li>Tạo thư mục 'audio' trong dự án</li>
+                        <li>Đặt các file nhạc (.mp3, .ogg) vào thư mục 'audio'</li>
+                        <li>Thay đổi đường dẫn trong thuộc tính 'src' của thẻ &lt;source&gt;</li>
+                        <li>Ví dụ: src="audio/ten-file-nhac-cua-ban.mp3"</li>
+                    </ol>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 - CLB Nghệ Thuật. Website được tạo bởi các thành viên trong CLB.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLB Nghệ Thuật - Video</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CÂU LẠC BỘ NGHỆ THUẬT</h1>
+            <p class="sub-title">Trường THPT Nguyễn Du - Nơi đam mê tỏa sáng</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                <li><a href="bo-suu-tap-anh.html">Bộ sưu tập ảnh</a></li>
+                <li><a href="am-nhac.html">Âm nhạc</a></li>
+                <li><a href="video.html" class="active">Video</a></li>
+                <li><a href="lien-he.html">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="section">
+                <h2>🎬 Video hoạt động CLB</h2>
+                
+                <div class="media-placeholder">
+                    <p class="placeholder-label">[VIDEO GIỚI THIỆU CLB]</p>
+                    
+                    <!-- KHU VỰC CHÈN VIDEO 1 -->
+                    <video controls width="100%" poster="images/poster-video.jpg">
+                        <source src="video/gioi-thieu-clb.mp4" type="video/mp4">
+                        <source src="video/gioi-thieu-clb.webm" type="video/webm">
+                        Trình duyệt của bạn không hỗ trợ thẻ video.
+                    </video>
+                    <p class="media-note">📽️ Video giới thiệu tổng quan về CLB Nghệ Thuật</p>
+                </div>
+
+                <div class="media-placeholder">
+                    <p class="placeholder-label">[TIẾT MỤC VĂN NGHỆ]</p>
+                    
+                    <!-- KHU VỰC CHÈN VIDEO 2 -->
+                    <video controls width="100%">
+                        <source src="video/tiet-muc-van-nghe.mp4" type="video/mp4">
+                        Trình duyệt của bạn không hỗ trợ thẻ video.
+                    </video>
+                    <p class="media-note">💃 Tiết mục nhảy "Hello Vietnam" - Đêm diễn kỷ niệm 20/11</p>
+                </div>
+
+                <div class="media-placeholder">
+                    <p class="placeholder-label">[WORKSHOP NHẠC CỤ]</p>
+                    
+                    <!-- KHU VỰC CHÈN VIDEO 3 -->
+                    <video controls width="100%">
+                        <source src="video/workshop-nhac-cu.mp4" type="video/mp4">
+                        Trình duyệt của bạn không hỗ trợ thẻ video.
+                    </video>
+                    <p class="media-note">🎸 Workshop hướng dẫn chơi guitar cơ bản</p>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--primary-blue);">📝 Hướng dẫn chèn video:</h3>
+                    <ol style="margin-left: 20px; margin-top: 10px;">
+                        <li>Tạo thư mục 'video' trong dự án</li>
+                        <li>Đặt các file video (.mp4, .webm) vào thư mục 'video'</li>
+                        <li>Tạo thư mục 'images' để chứa ảnh poster cho video</li>
+                        <li>Thay đổi đường dẫn trong thuộc tính 'src' của thẻ &lt;source&gt;</li>
+                        <li>Thay đổi đường dẫn trong thuộc tính 'poster' (ảnh đại diện video)</li>
+                    </ol>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 - CLB Nghệ Thuật. Website được tạo bởi các thành viên trong CLB.</p>
+        </div>
+    </footer>
+</body>
+</html>
